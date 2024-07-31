@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #9ca986;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 60px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

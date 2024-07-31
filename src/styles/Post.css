@@ -1,0 +1,94 @@
+.postcontainer {
+  width: 80%;
+  margin: 80px auto 20px auto;
+  padding: 20px;
+  background-color: #808d7c;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.background-header {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.posttitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 2em;
+}
+
+.profile-avatar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.comment-form .form-group {
+  margin-bottom: 15px;
+}
+
+.comment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.comment-form input[type="text"],
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.comment-form textarea {
+  height: 50px;
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
