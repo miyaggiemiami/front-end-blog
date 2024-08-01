@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import api from "../api";
 import { Link } from "react-router-dom";
 import "../styles/HomePage.css";
+import profile from "../images/myself.JPG"
 
 const HomePage = () => {
   const [posts, setPosts] = useState([]);
@@ -16,6 +17,9 @@ const HomePage = () => {
   return (
     <div className="homecontainer">
       <h1 className="title">Blog Posts</h1>
+      <div className="profile-pic">
+        <img src={profile} alt="pic" />
+      </div>
       <ul className="post-list">
         {posts.map((post) => (
           <li key={post.id} className="post-item">
