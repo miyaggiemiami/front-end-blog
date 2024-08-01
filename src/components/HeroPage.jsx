@@ -8,7 +8,7 @@ const HeroPage = () => {
   return (
     <div className="hero-container">
       <div className="profile-pic">
-        <img src={profile} alt="pic" />
+        <img className="pro-pic" src={profile} alt="pic" />
       </div>
       <h1>Engage content, insights, and stories with Clement. ☕️💻📖</h1>
       <div className="description">

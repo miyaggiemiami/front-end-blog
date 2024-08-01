@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background:whitesmoke;
+  background:#efefef;
   text-align: center;
   padding: 50px;
   box-sizing: border-box;
@@ -28,16 +28,18 @@
   background: #555;
 }
 
-.hero-container .btn {
+
+
+.hero-container{
   padding: 10px 20px;
-  color: #fff;
+  color: #efefef;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   position: relative;
-  background-color: #0c0c0c;
+  background-color: #efefef;
   border-radius: 10px;
   z-index: 0;
   outline: none;
@@ -74,6 +76,7 @@ img {
   object-fit: cover;
   border-radius: 50%;
   border: 10px solid rgb(68, 68, 68);
+  margin-bottom: 50px;
 }
 
 .description {
